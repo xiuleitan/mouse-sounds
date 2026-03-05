@@ -1,0 +1,18 @@
+# Rust build artifacts
+/target/
+
+# Packaging outputs
+/dist/
+*.tar.gz
+*.tar.gz.sha256
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
