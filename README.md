@@ -1,6 +1,26 @@
-# mouse-sounds
+<h1 align="center">
+  <span style="color: transparent; background: linear-gradient(120deg, #FF6B6B, #4ECDC4, #45B7D1); -webkit-background-clip: text; background-clip: text;">Mouse Sounds</span>
+</h1>
 
-一个用于 Linux 的小工具：监听全局鼠标按下/松开事件并播放点击音效。
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Linux-blue?style=for-the-badge&logo=linux" alt="Platform Linux">
+  <img src="https://img.shields.io/badge/Language-Rust-orange?style=for-the-badge&logo=rust" alt="Language Rust">
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Status Active">
+</p>
+
+> 一个用于 Linux 的高颜值小工具：监听全局鼠标按下/松开事件并播放清脆的点击音效。
+
+### 🎧 音效演示
+
+*点击下方音频控件播放，听一下默认的清脆效果吧！*
+
+**鼠标按下** (`click_down.wav`):  
+<audio src="./click_down.wav" controls></audio>
+
+**鼠标松开** (`click_up.wav`):  
+<audio src="./click_up.wav" controls></audio>
+
+---
 
 - 鼠标按下播放 `click_down.wav`
 - 鼠标松开播放 `click_up.wav`
